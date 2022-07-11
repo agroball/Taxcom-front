@@ -6,11 +6,7 @@ function Main(props) {
     <div className="main">
         <h1 className="main__header">Секция 0</h1>
       <sections>
-        {props.cards.map((card) => (
-          <Card
-            name={card.name}
-          />
-        ))}
+        <Card/>
       </sections>
       </div>
   );
