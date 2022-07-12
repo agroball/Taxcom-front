@@ -1,10 +1,9 @@
 .app{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    font-family: "Inter", "Arial", sans-serif;
+    font-family: 'Inter', 'Arial', 'sans-serif';
     font-style: normal;
-    background: linear-gradient(to right, #003c78 0%, #003c78 40%, #00468c 40%, #00468c 50%, #00468c 50%, #b41e14 50%, #b41e14 60%, #e11e14 60%, #e11e14 100%);
 }
 .app a, button{
     transition: all .4s;

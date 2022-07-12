@@ -1,7 +1,15 @@
 .main {
-  width: 100%;
+  width: 90%;
+  background-color: white;
+  margin: 20px auto 50px;
+  padding-bottom: 20px;
+  border-radius: 25px;
 }
 
 .main__header {
   text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 27px;
+  padding-top: 18px;
 }

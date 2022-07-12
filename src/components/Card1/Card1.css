@@ -1,0 +1,44 @@
+.element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element__header {
+}
+
+.table_kkt {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+  padding: 0;
+  gap: 25px;
+}
+
+.table__cell_kkt {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #2da86b;
+  border-radius: 12px;
+  padding-left: 10px;
+  width: 360px;
+  height: 200px;
+  transition: opacity 0.3s linear;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.table__cell_kkt:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 1);
+}
+
+.table__heading_kkt {
+  color: white;
+}
+
+.table__paragraph {
+  color: white;
+}

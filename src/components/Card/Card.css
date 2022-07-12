@@ -1,0 +1,38 @@
+.element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element__header {
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  padding: 0;
+  gap: 25px;
+}
+
+.table__cell {
+  display: flex;
+  justify-content: center;
+  /*list-style-type: none;*/
+  background-color: #2da86b;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 75px;
+  height: 60px;
+  transition: opacity 0.3s linear;
+  text-decoration: none;
+}
+
+.table__cell:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 1);
+}
+
+.table__heading {
+  color: white;
+}

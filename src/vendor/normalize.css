@@ -22,6 +22,7 @@
 
 body {
   margin: 0;
+  background: linear-gradient(to right, #003c78 0%, #003c78 40%, #00468c 40%, #00468c 50%, #00468c 50%, #b41e14 50%, #b41e14 60%, #e11e14 60%, #e11e14 100%);
 }
 
 /**
