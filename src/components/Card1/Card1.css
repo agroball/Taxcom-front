@@ -25,6 +25,7 @@
   padding-left: 10px;
   width: 360px;
   height: 200px;
+  cursor: pointer;
   transition: opacity 0.3s linear;
   text-decoration: none;
   gap: 10px;
@@ -41,4 +42,45 @@
 
 .table__paragraph {
   color: white;
+}
+
+
+.table__cell_kkt_red {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #e11e14;
+  border-radius: 12px;
+  padding-left: 10px;
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.table__cell_kkt_yellow {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #e0dd00;
+  border-radius: 12px;
+  padding-left: 10px;
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.table__cell_kkt_red:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 1);
+}
+
+.table__cell_kkt_yellow:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 1);
 }
