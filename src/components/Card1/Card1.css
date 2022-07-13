@@ -21,24 +21,29 @@
   border-radius: 12px;
   padding-left: 10px;
   width: 360px;
-  height: 200px;
+  height: 166px;
   cursor: pointer;
   transition: opacity 0.3s linear;
   text-decoration: none;
-  gap: 10px;
+  gap: 7px;
 }
 
 .table__cell_kkt:hover {
-  opacity: 0.8;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .table__heading_kkt {
-  color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 17px;
 }
 
 .table__paragraph {
-  color: white;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
 }
 
 
@@ -50,34 +55,32 @@
   border-radius: 12px;
   padding-left: 10px;
   width: 360px;
-  height: 200px;
+  height: 166px;
   cursor: pointer;
   transition: opacity 0.3s linear;
   text-decoration: none;
-  gap: 10px;
+  gap: 7px;
 }
 
 .table__cell_kkt_yellow {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  background-color: #e0dd00;
+  background-color: #ffd801;
   border-radius: 12px;
   padding-left: 10px;
   width: 360px;
-  height: 200px;
+  height: 166px;
   cursor: pointer;
   transition: opacity 0.3s linear;
   text-decoration: none;
-  gap: 10px;
+  gap: 7px;
 }
 
 .table__cell_kkt_red:hover {
-  opacity: 0.8;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .table__cell_kkt_yellow:hover {
-  opacity: 0.8;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.3);
 }

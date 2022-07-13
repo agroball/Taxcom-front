@@ -6,7 +6,7 @@ function Card(props) {
 
   return(
     <div className="element">
-      <h2 className="element__header">ПВП</h2>
+      {/*<h2 className="element__header">ПВП</h2>*/}
       <nav className="table">
         <NavLink to='/TP1' className="table__cell">
           <h3 className="table__heading">TP1</h3>

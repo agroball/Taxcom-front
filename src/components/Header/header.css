@@ -21,9 +21,16 @@
   transition-duration: 400ms;
 }
 
-.header__text {
+.header__back{
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
+  text-decoration: none;
   color: white;
+  cursor: pointer;
+  transition: opacity 1s ease-in;
+}
+
+.header__back:hover{
+  color: black;
 }
