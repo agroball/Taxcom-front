@@ -16,12 +16,14 @@
   font-weight: 600;
   font-size: 100px;
   line-height: 50px;
+  color: #003c78;
 }
 
 .not-found__note{
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
+  color: #003c78;
 }
 
 .not-found__paragraph {

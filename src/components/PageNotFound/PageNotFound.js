@@ -6,7 +6,7 @@ function PageNotFound() {
     <section className="not-found__content">
       <h1 className="not-found__404">404</h1>
       <p className="not-found__note">Страница не найдена</p>
-      <p className="not-found__paragraph">Создайте заявку в GLPI и свяжитесь с отделом ТПОС.</p>
+      <p className="not-found__paragraph">Создайте заявку в GLPI или свяжитесь с отделом ТПОС.</p>
       <Link to="/" className="not-found__back">Назад</Link>
     </section>
   )
